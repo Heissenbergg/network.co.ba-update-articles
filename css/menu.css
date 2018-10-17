@@ -1,0 +1,19 @@
+#top_menu {position: absolute; right: 0px; top: 0px; width: calc(100% - 282px); height: 45px; border-bottom:2px solid rgba(0,0,0,0.1);}
+#top_menu #logout{position: absolute; right: 0px; top: 5px; width: 180px; height: 35px; border-left:2px solid rgba(0,0,0,0.1);}
+#top_menu #logout img{position:absolute; left:30px; width:16px; height: 16px; top: 10px; }
+#top_menu #logout a{position: absolute; left: 60px; top: 6px; text-decoration: none; color:#333; font-family: myFont; font-weight: bold;}
+
+#left_menu{position: absolute; left: 0px; top: 0px; width: 280px; height: 100%; background:#fff; border-right:2px solid rgba(0,0,0,0.1);}
+#left_menu #left_menu_image{position: absolute; left: 30px; top: 30px; width: 220px; height: 220px; border-radius: 50%; background:#333; border:2px solid rgba(0,0,0,0.1);}
+#left_menu #left_menu_image img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; max-width: 60%; max-height: 60%; margin:auto;}
+#left_menu #user_name{position: absolute; left:30px; top: 270px; width: calc(100% - 60px); height: 35px; }
+#left_menu #user_name p{text-align:center; font-family: myFont; margin:0px; margin-top: 5px;}
+
+#left_menu #left_menu_links{position: absolute; top: 320px; left: 0px; width: 100%; height: calc(100% - 360px);  }
+#left_menu #left_menu_links .left_menu_link{position: relative; left: 30px; top: 0px; width: calc(100% - 60px); height: 35px;}
+#left_menu #left_menu_links .left_menu_link img{position:absolute; left:0px; width:16px; height: 16px; top: 8px; }
+#left_menu #left_menu_links .left_menu_link a{position: absolute; left: 30px; top: 5px; text-decoration: none; color:#333; font-family: myFont;}
+
+#left_menu #left_menu_links .left_menu_link_superior{height: 40px; left: 20px; border:1px solid rgba(0,0,0,0.2); border-radius: 2px; background:#fff; width: 100%; z-index: 100;}
+#left_menu #left_menu_links .left_menu_link_superior img{left: 10px; width: 18px; height: 18px; top: 10px;}
+#left_menu #left_menu_links .left_menu_link_superior a{left: 40px; font-size-adjust: 18px; top:8px; font-weight: bold;}

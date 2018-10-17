@@ -1,0 +1,29 @@
+@font-face {
+    font-family: myfont;
+    src: url(yugothil.ttf);
+}
+
+#control_body{position: absolute; left: 280px; top: 45px; width: calc(100% - 280px); height: calc(100% - 45px); overflow-y:auto;}
+#control_body #control_body_header{position: absolute; left:30px; top: 20px; width: calc(100% - 60px); height: 40px;}
+#control_body #control_body_header h4{font-family: myFont; margin:0px; font-size:18px; margin-top: 6px;}
+
+#control_body #content_of_body{position: absolute; left: 30px; top: 80px; width: calc(100% - 60px); height: auto;}
+
+#control_body #loading_part{position: absolute; text-align: center; left: 2px; top: 2px; width: calc(100% - 2px); height: calc(100% - 2px); display: none ;  z-index: 20; background: #fff;}
+#control_body #loading_part img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; margin: auto;}
+#control_body #loading_part #CircleChart_2{position: absolute; left: 0px; top: -100px; right: 0px; bottom: 0px; margin: auto;}
+
+#control_body #loading_part #additional_options{position: absolute; left: 0px; bottom: 0px; width: 100%; height: 200px; background: #fff; border-top: 2px solid rgba(0,0,0,0.1); z-index: 100; overflow-y: auto;}
+#control_body #loading_part #additional_options .show_user{position: relative; text-align: left; left: 5px; top: 10px; width: calc(100% - 10px); height: 25px; border: 0px solid rgba(0,0,0,0.1);}
+#control_body #loading_part #additional_options .show_user p{font-family: myFont; font-size: 14px; margin-top: 2px; margin-left: 10px;}
+#control_body #loading_part #additional_options .show_user p a{text-decoration: none; color: #FF334A;}
+
+#control_body #loading_part #additional_options .show_user #progress,
+#control_body #loading_part #additional_options .show_user #progress2{position: absolute; right: 20px; border-radius: 2px; top: 5px; height: 10px; overflow: hidden; width: calc(100% - 160px); }
+#control_body #loading_part #additional_options .show_user #progress #final_progress,
+#control_body #loading_part #additional_options .show_user #progress2 #final_progress2{position: absolute; left: 0px; top: 0px; height: 100%; width: 0%; background: #0091FF;}
+
+#control_body #loading_part #additional_options .show_user #open,
+#control_body #loading_part #additional_options .show_user #open2{position: absolute; top: 0px; margin-top: 0px; left: 120px;}
+#control_body #loading_part #additional_options .show_user #closed,
+#control_body #loading_part #additional_options .show_user #closed2{position: absolute; top: 0px; margin-top: 0px; right: 10px;}
